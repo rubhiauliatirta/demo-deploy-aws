@@ -1,7 +1,7 @@
 const fs = require("fs")
 const https = require("https")
 const app = require("../app")
-const HTTPS_PORT = 433
+const HTTPS_PORT = 443
 
 const server = https.createServer({
   key: fs.readFileSync(process.env.PRIVATE_KEY),
